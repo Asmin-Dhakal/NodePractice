@@ -1,5 +1,10 @@
 const express = require("express");
 const app = express();
+const path = require("path");
+app.use(express.static('./static'));
+
+
+
 
 
 
@@ -8,7 +13,7 @@ app.get('/', (req, res)=>{
 })
 
 app.get('/homepage', (req,res)=>{
-    res.send('Welcome to home page of our sever')
+    res.sendFile(path.join(__dirname + '/static/html/homepage.html'));
 
 })
 app.listen( 3000 , ()=>{

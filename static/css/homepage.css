@@ -1,0 +1,64 @@
+body{
+    background-image: url('../pictures/Background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#chest{
+    background-image: url('../pictures/chest.jpg');
+    color: ivory;
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: bottom;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    
+}
+
+
+#legs{
+    background-image:url('../pictures/legs.jpg') ;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: normal;
+    font-size: 25px;
+    color: ivory;
+    text-align: center;
+    vertical-align: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#triceps{
+    background-image: url('../pictures/triceps.jpg');
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: normal;
+    font-size: 25px;
+    color: ivory;
+    text-align: center;
+    vertical-align: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#biceps{
+    background-image: url('../pictures/biceps.jpg');
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: normal;
+    font-size: 25px;
+    color: ivory;
+    text-align: center;
+    vertical-align: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#heading{
+    color: ivory;
+    text-align: center;
+    font-size: 100px;
+}
+.table{
+    margin-left: 0px;
+}
