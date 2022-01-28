@@ -1,0 +1,22 @@
+{
+  "name": "nodepractice",
+  "version": "1.0.0",
+  "description": "Node Practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Asmin-Dhakal/NodePractice.git"
+  },
+  "author": "Asmin Dhakal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Asmin-Dhakal/NodePractice/issues"
+  },
+  "homepage": "https://github.com/Asmin-Dhakal/NodePractice#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
