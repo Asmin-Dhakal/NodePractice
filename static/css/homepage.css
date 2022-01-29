@@ -5,7 +5,7 @@ body{
 }
 
 #chest{
-    background-image: url('../pictures/chest.jpg');
+    background-image: url('../pictures/chest2.jpg');
     color: ivory;
     font-size: 25px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -19,7 +19,7 @@ body{
 
 
 #legs{
-    background-image:url('../pictures/legs.jpg') ;
+    background-image:url('../pictures/legs2.jpg') ;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: normal;
     font-size: 25px;
@@ -31,7 +31,7 @@ body{
 }
 
 #triceps{
-    background-image: url('../pictures/triceps.jpg');
+    background-image: url('../pictures/triceps2.jpg');
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: normal;
     font-size: 25px;
@@ -43,7 +43,7 @@ body{
 }
 
 #biceps{
-    background-image: url('../pictures/biceps.jpg');
+    background-image: url('../pictures/biceps3.jpg');
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: normal;
     font-size: 25px;
@@ -61,4 +61,27 @@ body{
 }
 .table{
     margin-left: 0px;
+    margin-top: 100px;
+}
+
+#para{
+    color: ivory;
+    text-size-adjust: 10px;
+}
+
+#head2{
+    color: ivory;
+
+}
+#des{
+    filter: blur(8px);
+    -webkit-filter: blur();    
+}
+
+#des2{
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    
+    
+    
 }
