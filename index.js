@@ -5,6 +5,7 @@ const path = require("path");
 app.use(express.static('./static'));
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
+var a=[];
 
 
 app.get('/', (req, res)=>{
@@ -17,8 +18,10 @@ app.get('/login', (req,res)=>{
 
 
 app.post('/user',(req,res)=>{
-    var user = req.body;
-    console.log(user)
+    
+    var userdetails = req.body;
+    console.log(userdetails)
+    a.push(userdetails)
 });
 
 
@@ -27,3 +30,7 @@ app.listen( 3000 , ()=>{
 } )
 
 
+app.get('/registeredUser',(req,res)=>{
+    res.send(a)
+    
+})
